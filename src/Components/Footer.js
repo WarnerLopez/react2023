@@ -3,7 +3,8 @@ class Footer extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
+            
+            <div className='footer'>
                 <span className='mr-5' >Copyright ©️warner lopez</span>
 
             </div>

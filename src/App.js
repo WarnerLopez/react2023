@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Home></Home>
-      <div className='foot'>
+      
       <Footer></Footer>
         
-      </div>
+     
     </div>
   );
 }

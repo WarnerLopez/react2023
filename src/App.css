@@ -40,7 +40,8 @@ body{
     transform: rotate(360deg);
   }
 }
-.foot{
+
+.footer{
   position:fixed;
   left:0px;
   bottom:0px;
@@ -49,3 +50,11 @@ body{
   color: white;
   background:rgb(14, 13, 13);
 }
+.imgcard{
+  height: 300px;
+}
+.card{
+  border-color: black;
+  margin: 2px;
+}
+
