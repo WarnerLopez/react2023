@@ -5,11 +5,11 @@ class Footer extends Component {
         return (
             
             <div className='footer'>
-                <span className='mr-5' >Copyright ©️warner lopez</span>
+                <span className='mr-5' >Copyright ©️Warner lopez</span>
 
             </div>
         );
     }
-}
+}S
  
 export default Footer;
