@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 class Navbar extends Component{
     state = {  } 
 
     render(){
         return(
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand" href="#">MY APP</a>
+            <Link className="navbar-brand" to="/">MY APP</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -13,11 +14,18 @@ class Navbar extends Component{
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <Link className="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Link</a>
+                  <Link className="nav-link" to="/List">Listado</Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/Form">Formulario</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/Cursos">Cursos</Link>
+                </li>
+               
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown

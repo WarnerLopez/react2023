@@ -4,16 +4,9 @@ import axios from 'axios';
 import uno from '../assets/img1.jpg';
 import dos from '../assets/img2.jpg';
 import tres from '../assets/img3.jpg';
-
+import Listado from './Listado';
 
 class Home extends Component {
-     componentDidMount() {
-        axios.get('https://jsonplaceholder.typicode.com/users')
-        .then(data=> {
-            console.log(data)
-        })
-    }
-    
     
     state = {  } 
     render() { 
@@ -61,6 +54,7 @@ class Home extends Component {
               </div>
             </div>
     </div>
+    
     </div>
         );
     }
